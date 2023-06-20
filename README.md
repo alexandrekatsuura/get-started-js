@@ -91,4 +91,17 @@ let resultado = soma(2, 3);
 console.log(resultado);
 ```
 
+* Arrays
+```
+let frutas = ["maçã", "banana", "laranja"];
 
+console.log(frutas[0]);
+console.log(frutas.length);
+
+frutas.push("abacaxi");
+console.log(frutas);
+
+for (let fruta of frutas) {
+  console.log(fruta);
+}
+```
